@@ -1,0 +1,41 @@
+.navbar {
+    display: inline-block;
+    margin-bottom: 2vh;
+}
+
+#navlist {
+    position: relative;
+    bottom: 4vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* float: inline-start; */
+    /* margin-top: 1vh; */
+    list-style: none;
+}
+
+#navlist li {
+    display: inline;
+    /* padding-left: 12vw;
+    padding-right: 4vw; */
+}
+
+#first {
+    padding-left: 8vw;
+    padding-right: 4vw;
+}
+
+#second {
+    padding-left: 10vw;
+    padding-right: 4vw;
+}
+
+#third {
+    padding-left: 10vw;
+    padding-right: 4vw;
+}
+
+#last {
+    padding-left: 10vw;
+    padding-right: 1vw;
+}

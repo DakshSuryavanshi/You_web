@@ -1,0 +1,9 @@
+.img-container {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    display: inline-block;
+}
+
+.logo{
+    border-radius: 8px;
+}
