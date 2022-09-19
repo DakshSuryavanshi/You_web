@@ -1,9 +1,22 @@
-.img-container {
-    margin-left: 2vw;
-    margin-top: 2vh;
+/* .img-container {
+    margin-left: 3vw;
+    margin-top: 4vh;
+    margin-right: 8vw;
+    float: left;
     display: inline-block;
+} */
+
+#logo {
+    border-radius: 8px;
+    margin-top: 4vh;
+    margin-left: 3vw;
+    width: 120px;
 }
 
-.logo{
-    border-radius: 8px;
+
+/* Need to configure media queries for smaller devices */
+@media only screen and (max-width: 920px) {
+    .logo {
+        width: 100px;
+    }
 }

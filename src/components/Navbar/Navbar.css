@@ -1,41 +1,54 @@
-.navbar {
-    display: inline-block;
-    margin-bottom: 2vh;
+#navbar {
+    background: #0F152E;
+    font-size: 30px;
+    text-align: center;
+    /* height: 12vh; */
 }
 
-#navlist {
-    position: relative;
-    bottom: 4vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* float: inline-start; */
-    /* margin-top: 1vh; */
-    list-style: none;
+
+.nav-links {
+    color: #eaf4fc;
+    text-decoration: none;
 }
 
-#navlist li {
-    display: inline;
-    /* padding-left: 12vw;
-    padding-right: 4vw; */
+.nav-links:hover {
+    color: #0F152E;
 }
 
-#first {
-    padding-left: 8vw;
-    padding-right: 4vw;
-}
-
-#second {
-    padding-left: 10vw;
-    padding-right: 4vw;
-}
-
-#third {
-    padding-left: 10vw;
-    padding-right: 4vw;
-}
-
-#last {
-    padding-left: 10vw;
+#nav-1 {
+    margin-top: 10vh;
     padding-right: 1vw;
+}
+#nav-2 {
+    margin-top: 10vh;
+    border-left-style: solid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-left-color: #2b91e6;
+    /* height: 80vh; */
+}
+#nav-3 {
+    margin-top: 10vh;
+    border-left-style: solid;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-left-color: #2b91e6;
+}
+#nav-4 {
+    margin-top: 10vh;
+    border-left-style: solid;
+    border-left-color: #2b91e6;
+    padding-left: 1vw;
+}
+
+/* Need to configure media queries for smaller devices */
+@media only screen and (max-width: 920px) and (min-width: 700px) {
+    #navbar {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 700px) and (min-width: 520px) {
+    #navbar {
+        font-size: 12px;
+    }
 }

@@ -1,0 +1,14 @@
+.button-space {
+    display: inline-block;
+    /* float: right; */
+}
+
+.button-space > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#SignInButton {
+    background-color: #0F152E;
+    font-size: 2rem;
+}

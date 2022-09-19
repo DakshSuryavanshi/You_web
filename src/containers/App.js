@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../components/Logo/Logo";
-import Navbar from "../components/Navbar/Navbar";
-import 'bootstrap';
+import Header from "./Header";
+// import SignIn from "../components/SignIn/SignIn";
+import 'tachyons';
 import "./App.css";
 
 
@@ -17,9 +17,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="container">
-                <Logo />
-                <Navbar />
-                <h1>You.AI Web app</h1>
+                <Header />
+                {/* <h1>You.AI Web app</h1> */}
             </div>
         )
     }
