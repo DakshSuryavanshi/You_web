@@ -1,54 +1,70 @@
 #navbar {
     background: #0F152E;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    /* width: 60vw; */
     /* height: 12vh; */
 }
-
 
 .nav-links {
     color: #eaf4fc;
     text-decoration: none;
+    font-weight: 800;
 }
 
 .nav-links:hover {
-    color: #0F152E;
+    color: #2196f3;
+}
+
+.nav-items {
+    margin-top: 10vh;
 }
 
 #nav-1 {
-    margin-top: 10vh;
     padding-right: 1vw;
 }
+
 #nav-2 {
-    margin-top: 10vh;
     border-left-style: solid;
     padding-left: 1vw;
     padding-right: 1vw;
     border-left-color: #2b91e6;
     /* height: 80vh; */
 }
+
 #nav-3 {
-    margin-top: 10vh;
     border-left-style: solid;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     border-left-color: #2b91e6;
 }
+
 #nav-4 {
-    margin-top: 10vh;
     border-left-style: solid;
     border-left-color: #2b91e6;
     padding-left: 1vw;
 }
 
 /* Need to configure media queries for smaller devices */
+
 @media only screen and (max-width: 920px) and (min-width: 700px) {
     #navbar {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .nav-items {
+        margin-top: 8vh
     }
 }
+
 @media only screen and (max-width: 700px) and (min-width: 520px) {
     #navbar {
         font-size: 12px;
     }
+    .nav-items {
+        margin-top: 7vh;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+/* Insert hamburger code here for mobile devices */
 }

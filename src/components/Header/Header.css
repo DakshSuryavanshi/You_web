@@ -1,0 +1,38 @@
+/* #header {
+    margin-left: 3vw;
+    margin-top: 4vh;
+    margin-right: 8vw;
+    float: left;
+    display: inline-block;
+} */
+
+#logo {
+    border-radius: 8px;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    width: 100px;
+}
+
+#header {
+    font-size: 22px;
+    width: 26.5vw;
+}
+
+/* Need to configure media queries for smaller devices */
+@media only screen and (max-width: 920px) and (min-width: 700px) {
+    #logo {
+        width: 80px;
+    }
+    #header {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 520px) {
+    #logo {
+        width: 70px;
+    }
+    #header {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,35 @@
+#tile-space {
+    margin-top: 20vh;
+}
+
+.links {
+    color: #eaf4fc;
+    text-decoration: none;
+}
+
+.tiles {
+    text-align: center;
+    height: 20vh;
+}
+
+#tile-1 {
+    margin-left: 8vw;
+    margin-bottom: 4vh;
+    margin-right: 1vw;
+}
+
+#tile-2 {
+    margin-left: 1vw;
+    margin-right: 8vw;
+    margin-bottom: 4vh;
+}
+
+#tile-3 {
+    margin-left: 8vw;
+    margin-right: 1vw;
+}
+
+#tile-4 {
+    margin-right: 8vw;
+    margin-left: 1vw;
+}
