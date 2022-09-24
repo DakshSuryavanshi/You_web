@@ -1,0 +1,6 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #060f1f;
+    /* background: linear-gradient(270deg , rgb(146, 146, 247), rgb(190, 156, 236), rgb(3, 3, 43) ) */
+    background: linear-gradient(0.25turn, #010126, #313f64, #020128);
+}

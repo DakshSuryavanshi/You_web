@@ -1,0 +1,13 @@
+#signin-background {
+    z-index: -1;
+}
+
+
+#signin-form {
+    display: flex;
+    justify-content: center;
+    /* width: 40vw; */
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 20vh;
+}
